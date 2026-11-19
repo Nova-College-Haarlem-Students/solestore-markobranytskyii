@@ -38,6 +38,7 @@ class BrandsSeeder extends Seeder
                 'country' => 'Frankrijk',
                 'description' => null, // mag leeg, want description is nullable()
             ],
+            ['name' => 'Puma', 'country' => 'Duitsland', 'description' => 'Duits sportmerk opgericht in 1948.'],
         ];
 
         foreach ($brands as $brand) {
